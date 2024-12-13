@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar{
+    background-color: #111111;
+}
+
+.logo{
+    width: 100%;
+    object-fit: contain;
+}
+
+.icons a{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+
+.icons a:hover{
+    transform:scale(1.2);
+}
+
+.custom-carousel .carousel-inner img {
+    height: auto;
+    max-width: 100%;
+}
+
+.side-nav{
+    float: left;
+    border: 1px solid #cccccc;
+    border-radius: 4px 4px 0 0;
+    height: fit-content;
+}
+
+.widget-title{
+    background: #000000;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.side-nav .widget-title {
+    background: #4f7fff;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.side-nav .side-item{
+    border: 1px solid #cccccc;
+}
+
+.product-carousel .carousel-inner{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #fff;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-body{
+    padding: 16px;
+    text-align: center;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-bottom: 1px solid #ddd;
+}
+
+.prod-img-top{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.cart-img-top{
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.product-link{
+    text-decoration: none;
+}
+
+.card_title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    /* Fix height for consistent layout */
+    height: 48px; /* Adjust based on your preferred line height (e.g., 1.2rem x 2 lines) */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis for long text */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limits to 2 lines */
+    -webkit-box-orient: vertical;
+}
+
+.price{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #28a745;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product_price{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+    margin: 0;
+}
+
+.admin-image{
+    width: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.pd{
+    margin: 0;
+    padding: 0;
+}
+
+.circle-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.circle-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+
+.brand-headlines{
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #222;
+}
+
+.brand-description{
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.brand-wrapper {
+    justify-content: center;
+}
+
+.brand-card {
+    max-width: 300px;
+}
+
+.banner{
+    position: relative;
+    width: 110%; /* Optional: Adjust width to your requirement */
+    height: 420px;
+    overflow: hidden; /* Ensure no overflow if the image aspect ratio differs */
+}
+
+img.banner-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+}
+
+.img-wrapper{
+    max-width: 200px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .icons a{
+        font-size: 1.7rem;
+        margin-left: 1.2rem;
+    }
+
+    .circle-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .product-carousel .carousel-inner{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .carousel-item .row {
+        flex-wrap: wrap;
+    }
+  
+    .carousel-item .col-6 {
+        flex: 0 0 50%; /* Two products per row */
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 425px) {
+    .icons a{
+        font-size: 1.2rem;
+        margin-left: 0.6rem;
+    }
+    .circle-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .custom-carousel {
+        width: 100%;
+        height: 100%; /* Adjust the height as needed */
+        margin: 0 auto;
+    }
+    
+    .custom-carousel .carousel-inner{
+        height: inherit;
+    }
+
+    .custom-carousel .carousel-inner .carousel-item{
+        height: inherit;
+    }
+
+    .custom-carousel .carousel-inner .carousel-item img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .product-carousel .carousel-inner{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .carousel-item .row {
+        display: flex; /* Flex layout */
+        flex-wrap: wrap; /* Wrap items to the next row if needed */
+        justify-content: center; /* Center-align items */
+    }
+  
+    .carousel-item .col-6 {
+        flex: 0 0 100%; /* Two products per row */
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    .cart-img-top{
+        width: 70%;
+    }
+}
